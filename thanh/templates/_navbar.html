@@ -1,0 +1,8 @@
+<nav class="navbar">
+	<a href="/" class="brand-link">
+		<img src="{{ url_for('static', filename='img/logo.svg') }}" alt="Logo" class="logo" />
+	</a>
+	<a href="/" class="nav-link {{ is_active('home') }}">Trang chủ</a> |
+	<a href="/about" class="nav-link {{ is_active('about') }}">Giới thiệu</a>
+</nav>
+<hr />

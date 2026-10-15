@@ -1,0 +1,33 @@
+/* Navbar & Logo */
+.navbar {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.brand-link {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 32px;
+	height: 32px;
+	border-radius: 6px;
+}
+
+/* Kiểu liên kết thanh điều hướng */
+.nav-link {
+	text-decoration: underline;
+}
+
+/* Trang hiện tại (Active) có màu đỏ */
+.nav-link.active {
+	color: #f70202;
+	font-weight: bold;
+}
+
+/* Style cho trang Giới thiệu */
+.about-desc {
+	color: #f70202;
+}

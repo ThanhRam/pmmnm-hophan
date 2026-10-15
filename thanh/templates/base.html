@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8" />
+		<title>{% block title %}Trang chủ{% endblock %} - {{ site_name }}</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+		{% block head %}{% endblock %}
+	</head>
+	<body>
+		{% include "_navbar.html" %}
+
+		<main>{% block content %}{% endblock %}</main>
+
+		{% include "_footer.html" %}
+	</body>
+</html>
